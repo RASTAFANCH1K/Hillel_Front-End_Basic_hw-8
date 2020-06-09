@@ -1,0 +1,26 @@
+/* Cтили для кроссбраузерности елементов НЕ ТРОГАЕМ */
+@import url(components/normalize.css);
+
+/* Базовые стили для форм НЕ ТРОГАЕМ */
+@import url(components/form.css);
+
+/* Базовые стили для типографии (изменяем от макета к макету) */
+@import url(components/base.css);
+
+/* Стили для грида (изменяем от макета к макету) */
+@import url(components/grid.css);
+
+/* Стили для кнопок (изменяем от макета к макету) */
+@import url(components/button.css);
+
+/* Стили для компоненты nav (изменяем от макета к макету) */
+@import url(components/navigation.css);
+
+/* Стили для компоненты card (изменяем от макета к макету) */
+@import url(components/card.css);
+
+/* Сюда пишем общие стили для проекта (изменяем от макета к макету) */
+@import url(components/common.css);
+
+/* icons */
+@import url(components/icons.css);

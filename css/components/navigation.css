@@ -1,0 +1,61 @@
+.nav-wrapper {
+  border-bottom: 1px solid #e0e9f0;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #282b2f;
+  padding: 13px 0 9px;
+  display: block;
+}
+
+.breadcrumbs {
+  margin-bottom: 80px;
+}
+
+.breadcrumbs ul {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 300;
+  list-style-type: none;
+  padding: 0;
+}
+
+.breadcrumbs a {
+  color: #282b2f;
+}
+
+.breadcrumbs li.active {
+  color: #78909c;
+}
+
+.breadcrumbs li {
+  padding-right: 18px;
+  margin-right: 12px;
+  position: relative;
+}
+
+.breadcrumbs li::after {
+  content: "";
+  background: url(../../images/right-arrow.png) no-repeat;
+  width: 5px;
+  height: 8px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.breadcrumbs li:last-child::after {
+  background: none;
+}

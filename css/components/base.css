@@ -1,0 +1,243 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 300 16px/1.6 'Rubik', Arial, Helvetica, sans-serif;
+  color: #455a63; 
+  background-color: #fff;
+  min-width: 320px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+p, ul, ol {
+  margin: 0 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  margin: 0 0 .5em;
+  font-weight: 500;
+  color: #282b2f;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*
+==================================================
+Мои стили
+==================================================
+*/
+
+/* header */
+
+.header {
+  margin-bottom: 21px;
+}
+
+.logo-wrapper {
+  background-color: #f5f8fb;
+  border-bottom: 1px solid #e0e9f0;
+}
+
+.logo-container {
+  padding: 36px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact li {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 35px;
+  position: relative;
+}
+
+.contact li::before {
+  content: "";
+  background: url(../../images/phone.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* main */
+
+.main  {
+  margin-bottom: 130px;
+}
+
+.article * + h3,
+.article * + h2 {
+ margin-top: 80px;
+}
+
+.article h3,
+.article h2,
+.article h1,
+.article p,
+.article .image {
+ margin-bottom: 40px;
+}
+
+.image img, 
+.card-image img {
+  border-radius: 5px;
+}
+
+.link-ontology {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.link-ontology:hover {
+  text-decoration: none;
+}
+
+.range-of-watches {
+  font-size: 20px;
+  font-style: italic;
+  color: #546e7a;
+}
+
+.list-of-watches {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-of-watches li {
+  font-style: italic;
+  padding-left: 25px;
+  margin-bottom: 27px;
+  position: relative;
+}
+
+.list-of-watches a {
+  text-decoration: underline;
+}
+
+.list-of-watches a:hover {
+  text-decoration: none;
+}
+
+.list-of-watches li::before {
+  content: "";
+  background: url(../../images/dash.png) no-repeat;
+  width: 12px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.type-of-watches {
+  padding-left: 17px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #e0e9f0;
+  margin-bottom: 50px;
+}
+
+.type-of-watches li {
+  margin-bottom: 22px;
+}
+
+.type-of-watches li:last-child {
+  margin-bottom: 0;
+}
+
+/* footer */
+
+.footer {
+  border-top: 1px solid #e0e9f0;
+}
+
+.footer-inner {
+  padding: 38px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-networks li {
+  margin-right: 25px;
+}
+
+.social-networks a {
+  text-decoration: none;
+}
+
+.social-networks i {
+  font-size: 20px;
+  color: #546e7a;
+  vertical-align: middle;
+}
+
+.social-networks i:hover {
+  color: #009688;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 400;
+  color: #282b2f;
+  margin: 0;
+}

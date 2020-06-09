@@ -1,0 +1,93 @@
+/* Обертка которая обрезает все лишнее что выходит за ширину страници,
+к примеру если вы что то вытаскиваете марджинами то у вас появится горизонтальный скролл на странице, эта обертка его срезает
++ если вы забыли указать position: relative; на нужном блоке, это ваша отправная точка для позиционирования,
+чтобы не трогать body
+эта обертка есть в каждом проекте */
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Элемент который центрирует контент на странице (только центрирует) */
+.container {
+  max-width: 1310px; 
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Обертка для полей формы */
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Поля формы */
+
+.form-control {
+	display: block;
+	width: 100%;
+  padding: 18px 19px; 
+  border: 2px solid #e0e9f0;
+  outline: none;
+  font-weight: 300;
+}
+
+.form-control:focus {
+	border-color: #009688;
+}
+
+/* Placeholder полей */
+
+.form-control::-webkit-input-placeholder {
+	color: grey;
+}
+
+.form-control::-moz-placeholder {
+	opacity: 1;
+	color: grey;
+}
+
+.form-control:-ms-input-placeholder {
+	color: grey;
+}
+
+/*
+==================================================
+Мои стили
+==================================================
+*/
+
+.form-groups {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+}
+
+.search-form {
+  margin-bottom: 55px;
+}
+
+.search-inner {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding-right: 50px;
+}
+
+.search-button {
+  border: none;
+  width: 50px;
+  background: url(../../images/search.png) no-repeat center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+

@@ -1,0 +1,39 @@
+.card {
+  margin-bottom: 60px;
+}
+
+.card:first-of-type {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e0e9f0;
+  margin-bottom: 30px;
+} 
+
+.card-image {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.time {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bdc6ca;
+  margin-bottom: 25px;
+}
+
+.card-description {
+  margin-bottom: 40px;
+}
+
+.read-more {
+  text-decoration: underline;
+  color: #009688;
+  font-weight: 500;
+}
+
+.read-more:hover {
+  text-decoration: none;
+}
+
